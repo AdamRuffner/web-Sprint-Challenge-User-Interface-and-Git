@@ -98,6 +98,12 @@ nav a{
     padding: 1%;
 }
 
+.about img{
+    -o-object-fit: cover;
+    width: 100%;
+    padding: 1%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -268,9 +274,55 @@ nav a{
     padding-right: 0;
 }
 
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width:80%;
+}
+
+
+
+.column{
+    display: flex;
+    width: 80%;
+}
+
+.leverage{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 80%;
+}
+
+.boxOne{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+    flex-wrap: wrap;
+    border-bottom: 1px dotted;
+
+
+}
+
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+
+}
+
+
 footer {
-    width: 100%;
+    display: flex;
+    width: 80%;
     background: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 footer nav {
@@ -280,9 +332,11 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 0 auto;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+
 }
