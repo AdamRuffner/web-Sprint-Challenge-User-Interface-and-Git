@@ -302,8 +302,20 @@ nav a{
     padding: 2%;
     flex-wrap: wrap;
     border-bottom: 1px dotted;
+    width: 80%;
+    
+    
 
 
+}
+
+.last{
+    width: 80%;
+    display: flex;
+
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
 }
 
 .all{
